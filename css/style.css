@@ -1,4 +1,5 @@
 @import './navigation.css';
+@import './header.css';
 
 *,
 *::after,
@@ -19,4 +20,5 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
 }

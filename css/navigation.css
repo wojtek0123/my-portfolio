@@ -1,7 +1,7 @@
 @import './colors.css';
 
-.nav {
-}
+/* .nav {
+} */
 
 .nav__burger {
 	position: fixed;
@@ -58,6 +58,7 @@
 	justify-content: center;
 	transition: transform 0.3s ease-in;
 	z-index: 1;
+	background-color: var(--white-color);
 }
 
 .nav__links-mobile.show {

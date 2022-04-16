@@ -1,0 +1,40 @@
+@import './colors.css';
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__email, .contact__subject, .contact__message {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.contact__message {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 15vh;
+  max-height: 30vh;
+}
+
+.contact__submit {
+  width: 100%;
+  padding: 0.75em 1.25em;
+  border: 1px solid transparent;
+  background-color: var(--light-purple);
+  color: var(--white-color);
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+  transition: background-color .3s ease-in;
+  cursor: pointer;
+}
+
+.contact__submit:hover {
+  border: 1px solid var(--light-purple);
+  background-color: var(--white-color);
+  color: var(--light-purple);
+}

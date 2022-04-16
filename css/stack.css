@@ -1,0 +1,31 @@
+.stack__boxes {
+  overflow: hidden;
+  display: flex;
+  /* width: 50%; */
+}
+
+.stack__box {
+  min-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1.4em;
+  place-items: center;
+  overflow: hidden;
+  width: 100%;
+  animation: slide-left 10s linear infinite;
+  padding: 0 1em;
+}
+
+.stack__icon {
+  width: 150%;
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

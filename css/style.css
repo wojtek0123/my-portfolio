@@ -1,5 +1,7 @@
+@import './colors.css';
 @import './navigation.css';
 @import './header.css';
+@import './aboutme.css';
 
 *,
 *::after,
@@ -21,4 +23,24 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.section__title {
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 3rem;
+}
+
+.section {
+  padding: 4em 1em;
+}
+
+.section:nth-child(odd) {
+  background-color: var(--darker-purple);
+}
+
+.section__title:nth-child(odd) {
+  color: var(--white-color);
 }

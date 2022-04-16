@@ -1,0 +1,34 @@
+.aboutme__box:nth-child(1) {
+  margin-bottom: 4em;
+}
+
+.aboutme__box-title {
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.aboutme__box-text {
+  color: var(--light-gray);
+  font-size: 1.3rem;
+}
+
+.aboutme__box-img {
+	width: 100%;
+}
+
+.aboutme__box-social {
+	margin-top: 2em;
+  display: flex;
+}
+
+.aboutme__box-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme__box-icon {
+	width: 30%;
+}

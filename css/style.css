@@ -3,6 +3,7 @@
 @import './header.css';
 @import './aboutme.css';
 @import './stack.css';
+@import './projects.css';
 
 *,
 *::after,
@@ -27,12 +28,10 @@ body {
   overflow-x: hidden;
 }
 
-
 .section {
   padding: 5em 1em;
   overflow-x: hidden;
 }
-
 
 .section__title {
   font-weight: 200;

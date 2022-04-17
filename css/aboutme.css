@@ -20,6 +20,8 @@
 
 .aboutme__box-social {
   display: flex;
+  align-items: center;
+  justify-content: center;
 	margin-top: 2em;
 }
 
@@ -31,4 +33,20 @@
 
 .aboutme__box-icon {
 	width: 30%;
+}
+
+@media (min-width: 768px) {
+  .aboutme__box-title {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+
+  .aboutme__box-text {
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+  }
+
+  .aboutme__box-social {
+    margin-top: 4em;
+  }
 }

@@ -28,3 +28,13 @@
     transform: translateX(-100%);
   }
 }
+
+@media (min-width: 768px) {
+  .stack__icon {
+    width: 110%;
+  }
+
+  .stack__box {
+    grid-gap: 1.6em;
+  }
+}

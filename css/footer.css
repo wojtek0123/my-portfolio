@@ -19,3 +19,18 @@
   color: var(--white-color);
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 1.5em 0;
+  }
+  
+  .footer__text {
+    font-size: 1.5rem;
+  }
+
+  .footer__img {
+    margin: 1em 3em;
+    width: 3em;
+  }
+}

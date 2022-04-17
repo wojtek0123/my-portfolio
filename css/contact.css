@@ -36,3 +36,14 @@
   border: 1px solid var(--light-purple);
   color: var(--light-purple);
 }
+
+@media (min-width: 768px) {
+  .contact__email, .contact__subject, .contact__message {
+    font-size: 1.6rem;
+    border: 2px solid var(--darker-purple);
+  }
+
+  .contact__submit {
+    font-size: 1.6rem;
+  }
+}

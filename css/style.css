@@ -55,3 +55,16 @@ body {
 .section:nth-child(odd) {
 	background-color: var(--darker-purple);
 }
+
+@media (min-width: 768px) {
+	.section__title {
+		font-size: 4rem;
+		letter-spacing: 0.05em;
+		font-weight: 200;
+		margin-bottom: 1.5em;
+	}
+
+	.section {
+		padding: 10em 2em;
+	}
+}

@@ -1,0 +1,23 @@
+@import './colors.css';
+
+.footer {
+  background-color: var(--darker-purple);
+  width: 100%;
+  padding-bottom: 1em;  
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__img {
+  width: 2em;
+  margin: 1em 2em;
+}
+
+.footer__text {
+  text-align: center;
+  color: var(--white-color);
+}

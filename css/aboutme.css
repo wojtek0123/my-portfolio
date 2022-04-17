@@ -1,5 +1,3 @@
-
-
 .aboutme__box:nth-child(1) {
   margin-bottom: 4em;
 }
@@ -21,13 +19,13 @@
 }
 
 .aboutme__box-social {
-	margin-top: 2em;
   display: flex;
+	margin-top: 2em;
 }
 
 .aboutme__box-link {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 

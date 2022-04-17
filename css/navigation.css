@@ -1,14 +1,9 @@
-@import './colors.css';
-
-/* .nav {
-} */
-
 .nav__burger {
-	position: fixed;
-	top: 1.5em;
-	right: 1.5em;
 	cursor: pointer;
 	padding: 1em;
+	position: fixed;
+	right: 1.5em;
+	top: 1.5em;
 	z-index: 2;
 }
 
@@ -23,21 +18,21 @@
 }
 
 .nav__burger-bar {
+	background-color: var(--black-color);
+	height: 2px;
 	position: relative;
 	width: 2em;
-	height: 2px;
-	background-color: var(--black-color);
 }
 
 .nav__burger-bar::after,
 .nav__burger-bar::before {
-	content: '';
-	position: absolute;
-	width: 2em;
-	height: 2px;
 	background-color: var(--black-color);
-	transition: transform .3s ease-in-out;
 	border-radius: 1em;
+	content: '';
+	height: 2px;
+	position: absolute;
+	transition: transform .3s ease-in-out;
+	width: 2em;
 }
 
 .nav__burger-bar::after {
@@ -50,15 +45,15 @@
 }
 
 .nav__links-mobile {
-	position: fixed;
-	inset: 0;
-	transform: translateX(-100%);
-	display: flex;
 	align-items: center;
+	background-color: var(--white-color);
+	display: flex;
+	inset: 0;
 	justify-content: center;
+	position: fixed;
+	transform: translateX(-100%);
 	transition: transform 0.3s ease-in;
 	z-index: 1;
-	background-color: var(--white-color);
 }
 
 .nav__links-mobile.show {
@@ -67,14 +62,14 @@
 
 .nav__links-mobile-container {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
+	justify-content: center;
 	text-align: left;
 }
 
 .nav__link-mobile {
+	color: var(--light-purple);
 	font-size: 2rem;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: var(--light-purple);
 }

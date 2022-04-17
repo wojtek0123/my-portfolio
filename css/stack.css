@@ -1,19 +1,18 @@
 .stack__boxes {
-  overflow: hidden;
   display: flex;
-  /* width: 50%; */
+  overflow: hidden;
 }
 
 .stack__box {
-  min-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 1.4em;
-  place-items: center;
-  overflow: hidden;
-  width: 100%;
   animation: slide-left 10s linear infinite;
+  display: grid;
+  grid-gap: 1.4em;
+  grid-template-columns: repeat(7, 1fr);
+  min-width: 100%;
+  overflow: hidden;
   padding: 0 1em;
+  place-items: center;
+  width: 100%;
 }
 
 .stack__icon {

@@ -1,11 +1,11 @@
 .projects__boxes {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   grid-gap: 0.5em;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .projects__box {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }

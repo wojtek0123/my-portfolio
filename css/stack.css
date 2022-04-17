@@ -38,3 +38,13 @@
     grid-gap: 1.6em;
   }
 }
+
+@media (min-width: 768px) {
+  .stack__icon {
+    width: 100%;
+  }
+
+  .stack__box {
+    grid-gap: 1.6em;
+  }
+}

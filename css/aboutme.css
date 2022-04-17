@@ -1,17 +1,17 @@
 .aboutme__box:nth-child(1) {
-  margin-bottom: 4em;
+	margin-bottom: 4em;
 }
 
 .aboutme__box-title {
-  color: var(--white-color);
-  font-size: 2rem;
-  font-weight: 400;
-  margin-bottom: 1em;
+	color: var(--white-color);
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 1em;
 }
 
 .aboutme__box-text {
-  color: var(--light-gray);
-  font-size: 1.3rem;
+	color: var(--light-gray);
+	font-size: 1.3rem;
 }
 
 .aboutme__box-img {
@@ -19,34 +19,89 @@
 }
 
 .aboutme__box-social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: 2em;
 }
 
 .aboutme__box-link {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .aboutme__box-icon {
 	width: 30%;
+	border-radius: 50%;
+	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+	border: 2px solid transparent;
+}
+
+.aboutme__box-icon:hover {
+	background-color: var(--light-purple);
+	border: 2px solid var(--light-purple);
+	border-radius: 50%;
 }
 
 @media (min-width: 768px) {
-  .aboutme__box-title {
-    font-size: 2.5rem;
-    margin-bottom: 1em;
-  }
+	.aboutme__box-title {
+		font-size: 2.5rem;
+		margin-bottom: 1em;
+	}
 
-  .aboutme__box-text {
-    font-size: 1.5rem;
-    letter-spacing: 0.05em;
-  }
+	.aboutme__box-text {
+		font-size: 1.5rem;
+		letter-spacing: 0.05em;
+	}
 
-  .aboutme__box-social {
-    margin-top: 4em;
-  }
+	.aboutme__box-social {
+		margin-top: 4em;
+	}
+}
+
+@media (min-width: 1024px) {
+	.aboutme__boxes {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.aboutme__box:nth-child(1) {
+		margin-bottom: 0;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 50%;
+		margin-right: 3em;
+	}
+
+	.aboutme__box:nth-child(2) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-left: 3em;
+
+	}
+
+	.aboutme__box-img {
+		max-width: 100%;
+	}
+
+	.aboutme__box-title {
+		font-size: 3rem;
+	}
+
+	.aboutme__box-text {
+		font-size: 1.6rem;
+		line-height: 1.5em;
+	}
+
+	.aboutme__box-social {
+		margin-top: 10em;
+	}
+
+	.aboutme__box-icon {
+		width: 20%;
+	}
 }

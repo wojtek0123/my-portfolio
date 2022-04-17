@@ -98,3 +98,37 @@
     width: 3.5%;
   }
 }
+
+@media (min-width: 1024px) {
+  .header {
+    flex-direction: row;
+    /* margin: 0 10em; */
+    max-width: 1400px;
+  }
+
+  .header__box:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 2em;
+    /* height: 80vh; */
+  }
+  
+  .header__title {
+    font-size: 4rem;
+    margin-bottom: 1em;
+  }
+  
+  .header__autotyping {
+    font-size: 6rem;
+    height: 6rem;
+  }
+  
+  .header__link {
+    font-size: 2rem;
+  }
+  
+  .header__arrow {
+    width: 1.3%;
+  }
+}

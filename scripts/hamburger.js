@@ -1,5 +1,5 @@
 const burgerBtn = document.querySelector('.nav__burger');
-const mobileNav = document.querySelector('.nav__links-mobile');
+const mobileNav = document.querySelector('.nav__links');
 
 const burgerHandler = () => {
 	mobileNav.classList.toggle('show');
@@ -8,7 +8,7 @@ const burgerHandler = () => {
 
 burgerBtn.addEventListener('click', burgerHandler);
 mobileNav.addEventListener('click', (event) => {
-	if (event.target.classList.contains('nav__link-mobile')) {
+	if (event.target.classList.contains('nav__link')) {
 		burgerHandler();
 	}
 });

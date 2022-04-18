@@ -99,6 +99,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	display: none;
 }
 
 .nav__circle {
@@ -155,5 +156,9 @@
 @media (min-width: 1024px) {
 	.nav__links-container {
 		padding: 8em;
+	}
+
+	.nav__scroll-spy {
+		display: block;
 	}
 }

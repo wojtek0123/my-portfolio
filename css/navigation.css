@@ -1,10 +1,12 @@
 .nav__burger {
 	cursor: pointer;
-	padding: 1em;
+	padding: 2em 1em;
 	position: fixed;
 	right: 1.5em;
 	top: 1.5em;
 	z-index: 2;
+	background-color: var(--white-color);
+	border-radius: 1em;
 }
 
 .nav__burger.open .nav__burger-bar {
@@ -71,7 +73,6 @@
 
 .nav__links-container {
 	display: flex;
-	/* padding: 8em; */
 	flex-direction: column;
 }
 
@@ -82,7 +83,7 @@
 .nav__link {
 	transform: translate(0);
 	display: block;
-	transition: transform .5s;
+	transition: transform 0.5s;
 }
 
 .nav__link:hover .nav__link {
@@ -90,6 +91,31 @@
 	transform: translateX(15%);
 }
 
+.nav__scroll-spy {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav__circle {
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	border: 0.2em solid var(--light-purple);
+	margin: 1em;
+}
+
+.nav__circle.active {
+	background-color: var(--light-purple);
+}
+
+.color {
+	background-color: var(--white-color);
+}
 
 @media (min-width: 768px) {
 	.nav__burger-bar {
@@ -107,7 +133,7 @@
 		top: 0.8em;
 		transform-origin: top left;
 	}
-	
+
 	.nav__burger-bar::before {
 		top: -0.8em;
 		transform-origin: bottom left;
@@ -125,7 +151,6 @@
 		font-size: 3rem;
 	}
 }
-
 
 @media (min-width: 1024px) {
 	.nav__links-container {

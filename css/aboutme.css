@@ -44,15 +44,16 @@
 	border-radius: 50%;
 }
 
-.square {
+.aboutme__box-icon-square {
 	border-radius: 0.5em;
-	border: none;
+	width: 25%;
 	padding: 0 0.5em;
+	transition: background-color 0.3s ease-in-out;
 }
 
-.square:hover {
-	border: none;
+.aboutme__box-icon-square:hover {
 	border-radius: 0.5em;
+	background-color: var(--light-purple);
 }
 
 @media (min-width: 768px) {

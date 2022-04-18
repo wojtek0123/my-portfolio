@@ -1,0 +1,30 @@
+.button {
+	position: relative;
+	overflow: hidden;
+	color: var(--white-color);
+	border: 0.1em solid transparent;
+  background-color: var(--light-purple);
+	letter-spacing: 0.1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: color .3s;
+}
+
+.button::after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  transform: translateX(-100%);
+  background-color: var(--white-color);
+  transition: transform .5s, color .3s;
+}
+
+.button:hover::after {
+  z-index: -1;
+  transform: translateX(0);
+}
+
+.button:hover {
+  color: var(--light-purple);
+  z-index: 0;
+}

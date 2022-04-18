@@ -1,0 +1,34 @@
+.section {
+	padding: 5em 1em;
+	width: 100vw;
+}
+
+.section__title {
+	color: var(--darker-purple);
+	font-size: 3rem;
+	font-weight: 200;
+	margin-bottom: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section__title.odd {
+	color: var(--white-color);
+}
+
+.section:nth-child(odd) {
+	background-color: var(--darker-purple);
+}
+
+@media (min-width: 768px) {
+	.section__title {
+		font-size: 4rem;
+		letter-spacing: 0.05em;
+		font-weight: 200;
+		margin-bottom: 1.5em;
+	}
+
+	.section {
+		padding: 10em 2em;
+	}
+}

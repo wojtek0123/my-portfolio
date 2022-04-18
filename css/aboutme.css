@@ -32,7 +32,7 @@
 }
 
 .aboutme__box-icon {
-	width: 30%;
+	width: 50%;
 	border-radius: 50%;
 	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 	border: 0.5em solid transparent;
@@ -41,12 +41,11 @@
 .aboutme__box-icon:hover {
 	background-color: var(--light-purple);
 	border: 0.5em solid var(--light-purple);
-	border-radius: 50%;
 }
 
 .aboutme__box-icon-square {
 	border-radius: 0.5em;
-	width: 25%;
+	width: 50%;
 	padding: 0 0.5em;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -69,6 +68,20 @@
 
 	.aboutme__box-social {
 		margin-top: 4em;
+	}
+
+	.aboutme__box-icon {
+		width: 40%;
+		border-radius: 50%;
+		transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+		border: 0.5em solid transparent;
+	}
+
+	.aboutme__box-icon-square {
+		border-radius: 0.5em;
+		width: 40%;
+		padding: 0 0.5em;
+		transition: background-color 0.3s ease-in-out;
 	}
 }
 
@@ -114,5 +127,9 @@
 
 	.aboutme__box-icon {
 		width: 20%;
+	}
+
+	.aboutme__box-icon {
+		width: 40%;
 	}
 }

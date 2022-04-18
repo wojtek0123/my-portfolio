@@ -31,24 +31,12 @@
 }
 
 .header__link {
-  background-color: var(--light-purple);
-  border: 0.1em solid transparent;
-  color: var(--white-color);
-  cursor: pointer;
-  display: inline;
   font-size: 1.2rem;
   margin-top: 2em;
   padding: 0.7em 1.3em;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: color .3s, background-color .3s;
 }
 
-.header__link:hover {
-  color: var(--light-purple);
-  background-color: var(--white-color);
-  border: 0.1em solid var(--light-purple);
-}
 
 .header__img {
   max-width: 100%;

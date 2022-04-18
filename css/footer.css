@@ -13,14 +13,14 @@
 .footer__img {
 	margin: 1em 2em;
 	width: 2em;
-	border-radius: 0.5em;
+	border-radius: 50%;
 	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
-	border: 0.3em solid transparent;
+	border: 5px solid transparent;
 }
 
 .footer__img:hover {
 	background-color: var(--light-purple);
-	border: 0.3em solid var(--light-purple);
+	border: 5px solid var(--light-purple);
 }
 
 .footer__text {

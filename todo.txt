@@ -1,0 +1,12 @@
+* desktop navigation
+* change hover buttons animation
+* add project when they will be done
+* add media queries for 2k and 4k monitor
+* translate about me text
+* add hover animation on images
+* add scroll spy for dekstop
+* modify project section
+* hide arrow down after scrolling a bit down
+* make contact form work
+* maybe change a bit contact form on desktop??
+* add hover animation on navigation

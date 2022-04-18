@@ -35,6 +35,11 @@
 	width: 100%;
 }
 
+.warning {
+	margin-bottom: 1em;
+	font-size: 1rem;
+}
+
 @media (min-width: 768px) {
 	.contact__email,
 	.contact__subject,
@@ -45,5 +50,11 @@
 
 	.contact__submit {
 		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.warning {
+		display: none;
 	}
 }

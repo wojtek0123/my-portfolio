@@ -16,7 +16,7 @@
 }
 
 .stack__icon {
-  width: 4.1em;
+  width: 5em;
 }
 
 @keyframes slide-left {
@@ -31,20 +31,12 @@
 
 @media (min-width: 768px) {
   .stack__icon {
-    width: 110%;
-  }
-
-  .stack__box {
-    grid-gap: 1.6em;
+    width: 7em;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .stack__icon {
-    width: 100%;
-  }
-
-  .stack__box {
-    grid-gap: 1.6em;
+    width: 8em;
   }
 }

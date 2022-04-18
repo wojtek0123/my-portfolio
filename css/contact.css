@@ -23,9 +23,9 @@
 }
 
 .contact__message {
-	max-height: 30vh;
+	max-height: 15em;
 	max-width: 100%;
-	min-height: 15vh;
+	min-height: 10em;
 	min-width: 100%;
 }
 

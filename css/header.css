@@ -80,7 +80,13 @@
 @media (min-width: 1024px) {
   .header {
     flex-direction: row;
-    max-width: 1400px;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1400px; */
+  }
+
+  .header__img {
+    width: 100%;
   }
 
   .header__box:nth-child(1) {
@@ -88,16 +94,24 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding-right: 2em;
+    width: 40%;
+  }
+
+  .header__box:nth-child(2) {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
   }
   
   .header__title {
     font-size: 4rem;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
   
   .header__autotyping {
     font-size: 6rem;
     height: 6rem;
+    margin-bottom: 1em;
   }
   
   .header__link {

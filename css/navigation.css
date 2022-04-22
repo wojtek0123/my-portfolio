@@ -10,7 +10,7 @@
 	background-color: var(--white-color);
 	padding: 1.25em 1em;
 	transform: translateY(0);
-	transition: transform .4s;
+	transition: transform 1s;
 }
 
 .nav.hide {
@@ -221,7 +221,7 @@
 		width: 0;
 		height: 0;
 		opacity: 0;
-		transition: width .3s, height .3s;
+		transition: width .3s linear, height .3s linear;
 	}
 
 	.nav__link-desktop::before {

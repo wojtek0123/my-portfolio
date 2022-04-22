@@ -17,6 +17,12 @@
 	transform: translateY(-100%);
 }
 
+.nav__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .nav__burger {
 	cursor: pointer;
 	display: block;
@@ -180,7 +186,18 @@
 
 @media (min-width: 1024px) {
 	.nav {
-		justify-content: space-around;
+		/* justify-content: space-around; */
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		/* margin-inline: 2em; */
+	}
+
+	.nav__wrapper {
+		margin-inline: 2em;	
+		max-width: 1600px;
+		width: 100%;
+		justify-content: space-between;
 	}
 
 	.nav__logo {
@@ -196,6 +213,10 @@
 
 	.nav__scroll-spy {
 		display: block;
+	}
+
+	.nav__links {
+		display: none;
 	}
 
 	.nav__links-desktop {

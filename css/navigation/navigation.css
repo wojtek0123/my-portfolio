@@ -13,7 +13,7 @@
 	background-color: var(--white-color);
 	padding: 1.25em 1em;
 	transform: translateY(0);
-	transition: transform 1s;
+	transition: transform 0.4s;
 }
 
 .nav__wrapper {

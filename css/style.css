@@ -1,5 +1,5 @@
 @import './colors.css';
-@import './navigation.css';
+@import './navigation/navigation.css';
 @import './header.css';
 @import './aboutme.css';
 @import './stack.css';

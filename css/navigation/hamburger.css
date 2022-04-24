@@ -2,6 +2,7 @@
 	cursor: pointer;
 	display: block;
 	z-index: 2;
+	padding: 1.3em 1em;
 }
 
 .nav__burger.open .nav__burger-bar {

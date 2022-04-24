@@ -31,6 +31,10 @@ body {
 	overflow-x: hidden;
 }
 
+body.no-scroll {
+	overflow: hidden;
+}
+
 .icon {
 	position: absolute;
 	top: 20%;

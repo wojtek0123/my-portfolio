@@ -7,9 +7,9 @@
 .contact__email,
 .contact__subject,
 .contact__message {
+	border: 0.1em solid var(--black-color);
 	font-size: 1.2rem;
 	font-family: 'Montserrat', sans-serif;
-	border: 0.1em solid var(--black-color);
 	margin-bottom: 1em;
 	padding: 0.5em;
 	width: 100%;
@@ -36,16 +36,16 @@
 }
 
 .warning {
-	margin-bottom: 1em;
 	font-size: 1rem;
+	margin-bottom: 1em;
 }
 
 @media (min-width: 768px) {
 	.contact__email,
 	.contact__subject,
 	.contact__message {
-		font-size: 1.6rem;
 		border: 2px solid var(--darker-purple);
+		font-size: 1.6rem;
 	}
 
 	.contact__submit {

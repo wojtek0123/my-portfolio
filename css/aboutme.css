@@ -24,11 +24,11 @@
 }
 
 .aboutme__box-social {
-	display: flex;
 	align-items: center;
+	display: flex;
+	height: 5em;
 	justify-content: space-evenly;
 	margin-top: 2em;
-	height: 5em;
 }
 
 .aboutme__box-link {
@@ -38,10 +38,10 @@
 }
 
 .aboutme__box-icon {
-	width: 4em;
-	border-radius: 50%;
-	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 	border: 0.5em solid transparent;
+	border-radius: 50%;
+	width: 4em;
+	transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
 .aboutme__box-icon:hover {
@@ -51,9 +51,9 @@
 
 .aboutme__box-icon-square {
 	border-radius: 0.5em;
-	width: 4.5em;
 	padding: 0 0.5em;
 	transition: background-color 0.3s ease-in-out;
+	width: 4.5em;
 }
 
 .aboutme__box-icon-square:hover {
@@ -77,17 +77,17 @@
 	}
 
 	.aboutme__box-icon {
-		width: 5em;
+		border: 0.5em solid transparent;
 		border-radius: 50%;
 		transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
-		border: 0.5em solid transparent;
+		width: 5em;
 	}
 
 	.aboutme__box-icon-square {
 		border-radius: 0.5em;
-		width: 5em;
 		padding: 0 0.5em;
 		transition: background-color 0.3s ease-in-out;
+		width: 5em;
 	}
 }
 
@@ -98,18 +98,18 @@
 	}
 
 	.aboutme__box:nth-child(1) {
-		margin-bottom: 0;
-		display: flex;
 		align-items: flex-start;
-		justify-content: center;
+		display: flex;
 		flex-direction: column;
-		max-width: 50%;
+		justify-content: center;
+		margin-bottom: 0;
 		margin-right: 3em;
+		max-width: 50%;
 	}
 
 	.aboutme__box:nth-child(2) {
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: center;
 		margin-left: 3em;
 	}

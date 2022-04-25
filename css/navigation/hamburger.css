@@ -1,8 +1,8 @@
 .nav__burger {
 	cursor: pointer;
 	display: block;
-	z-index: 2;
 	padding: 1.3em 1em;
+	z-index: 2;
 }
 
 .nav__burger.open .nav__burger-bar {
@@ -17,10 +17,10 @@
 
 .nav__burger-bar {
 	background-color: var(--black-color);
+	border-radius: 1em;
 	height: 3px;
 	position: relative;
 	width: 2.5em;
-	border-radius: 1em;
 }
 
 .nav__burger-bar::after,

@@ -43,9 +43,11 @@
 }
 
 .header__arrow {
-	animation: slide 1s infinite linear;
+	animation: arrow-slide 1s infinite linear;
 	bottom: 0;
+	left: 50%;
 	position: absolute;
+	transform: translateX(-50%);
 	width: 5%;
 }
 
@@ -84,8 +86,8 @@
 
 @media (min-width: 1024px) {
 	.header {
-		flex-direction: row;
 		align-items: center;
+		flex-direction: row;
 		justify-content: space-between;
 		max-width: 1600px;
 	}
@@ -102,9 +104,9 @@
 	}
 
 	.header__box:nth-child(2) {
-		width: 100%;
-		justify-content: center;
 		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 
 	.header__title {
@@ -153,7 +155,7 @@
 	}
 }
 
-@keyframes slide {
+@keyframes arrow-slide {
 	0% {
 		transform: translateY(0);
 	}

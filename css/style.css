@@ -34,23 +34,3 @@ body {
 body.no-scroll {
 	overflow: hidden;
 }
-
-.icon {
-	position: absolute;
-	top: 20%;
-	right: 40%;
-	z-index: -1;
-	width: 2em;
-	animation: rotate 10s linear infinite;
-}
-
-@keyframes rotate {
-	from {
-		transform: rotate(0);
-	}
-
-	to {
-		transform: rotate(360deg);
-	}
-
-}

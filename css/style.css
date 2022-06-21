@@ -3,7 +3,7 @@
 @import './header.css';
 @import './aboutme.css';
 @import './stack.css';
-@import './projects.css';
+@import './projects/projects.css';
 @import './contact.css';
 @import './footer.css';
 @import './components.css';

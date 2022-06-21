@@ -1,0 +1,79 @@
+@import '../colors.css';
+@import './projects-box.css';
+@import './projects-links.css';
+
+.projects {
+	color: var(--white-color);
+}
+
+.projects__project-title {
+	letter-spacing: 0.1em;
+	padding-bottom: 1em;
+	font-weight: 200;
+	font-size: 1.4rem;
+}
+
+.projects__box-stack {
+	align-items: center;
+	background-color: var(--shadow);
+	border-top-right-radius: 0.25em;
+	bottom: 0;
+	display: flex;
+	left: 0;
+	padding-left: 0.5em;
+	position: absolute;
+}
+
+.projects__box-stack-text {
+	padding: 0.5em;
+}
+
+.projects__box-stack-img {
+	height: 1.5em;
+	width: 100%;
+}
+
+.projects__box-text {
+	font-size: 1.3rem;
+	font-weight: 200;
+  letter-spacing: 0.06em;
+}
+
+.projects__box-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+	.projects__project-title {
+		font-size: 2rem;
+	}
+
+	.projects__box-text {
+		font-size: 1.25rem;
+		line-height: 1.4em;
+	}
+
+	.projects__box-text {
+		font-size: 1.3rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.projects__box-text {
+		font-weight: 200;
+		font-size: 1.5rem;
+		line-height: 1.5em;
+	}
+
+	.projects__box-stack-text {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 1230px) {
+	.projects__box-text {
+		font-size: 1.4rem;
+		line-height: 1.5em;
+	}
+}

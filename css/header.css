@@ -134,24 +134,20 @@
 		font-size: 5rem;
 		height: 5rem;
 	}
-
-	.header__title {
-		font-size: 3.5rem;
-	}
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 2000px) {
 	.header__img {
 		width: 100%;
 	}
 
 	.header__autotyping {
-		font-size: 6rem;
-		height: 6rem;
+		font-size: 5rem;
+		height: 5rem;
 	}
 
 	.header__title {
-		font-size: 5rem;
+		font-size: 4.5rem;
 	}
 }
 

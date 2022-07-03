@@ -34,9 +34,15 @@
 }
 
 .projects__box-text {
+	margin-top: 1em;
 	font-size: 1.3rem;
 	font-weight: 200;
   letter-spacing: 0.06em;
+}
+
+.projects__box-text--stack {
+	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .projects__box-img {
@@ -61,7 +67,6 @@
 
 @media (min-width: 1024px) {
 	.projects__box-text {
-		font-weight: 200;
 		font-size: 1.5rem;
 		line-height: 1.5em;
 	}

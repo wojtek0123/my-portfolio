@@ -1,5 +1,0 @@
-* add project when they will be done
-* add media queries for 2k and 4k monitor
-* add hover animation on images
-* modify project section
-* maybe change a bit contact form on desktop??

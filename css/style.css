@@ -13,24 +13,24 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	justify-content: center;
-	overflow-x: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 body.no-scroll {
-	overflow: hidden;
+  overflow: hidden;
 }

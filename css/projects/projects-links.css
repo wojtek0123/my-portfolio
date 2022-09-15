@@ -6,7 +6,6 @@
 	right: 0;
 	display: none;
 	background-color: var(--shadow);
-	border-top-left-radius: 0.25em;
 	padding: 0.25em;
 }
 
@@ -17,6 +16,7 @@
 	text-decoration: none;
 	transition: background-color 0.3s;
 }
+
 .projects__box-link-desktop:nth-child(2) {
 	border-radius: 0.25em;
 }

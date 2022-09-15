@@ -1,49 +1,94 @@
 .projects__boxes {
-	display: grid;
-	grid-gap: 0.5em;
-	grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .projects__box-container {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects__box {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	max-width: 1200px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
 }
 
 .projects__box:not(:first-child) {
-	margin-top: 4em;
+  margin-top: 4em;
 }
 
 .projects__box--right {
-	display: flex;
-	flex-direction: column;
-	margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
 }
 
 .projects__box--left {
-	object-fit: cover;
-	object-position: center;
-	width: 100%;
-	position: relative;
-	border-radius: 0.5em;
-	overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  position: relative;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.projects__box--link-see-more {
+  width: 100%;
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__box--button {
+  font-size: 1.5rem;
+  margin-top: 2em;
+  padding: 0.7em 1.3em;
+  text-decoration: none;
+  border: none;
+  color: var(--white-color);
+  background-color: var(--light-purple);
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  position: relative;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
-	.projects__box--right {
-		width: 100%;
-		margin-top: 0em;
-		margin-left: 1em;
-	}
+  .projects__box--right {
+    width: 100%;
+    margin-top: 0em;
+    margin-left: 1em;
+  }
 
-	.projects__box-container {
-		flex-direction: row;
-	}
+  .projects__box-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects__box--button::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    transform: translateX(-103%);
+    background-color: var(--white-color);
+    transition: transform 0.5s, color 0.3s;
+  }
+
+  .projects__box--button:hover::after {
+    z-index: -1;
+    transform: translateX(0);
+  }
+
+  .projects__box--button:hover {
+    color: var(--light-purple);
+    z-index: 0;
+  }
 }
